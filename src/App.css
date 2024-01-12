@@ -1,0 +1,21 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  margin: 100px auto;
+  border: 1px solid rgb(225, 224, 224);
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"] {
+  height: 25px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  padding: 5px;
+}
